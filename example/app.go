@@ -13,7 +13,6 @@ import (
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls/contracts/bridge"
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls/evmclient"
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls/evmgaspricer"
-	"github.com/ChainSafe/chainbridge-core/chains/evm/calls/evmtransaction"
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls/transactor/signAndSend"
 	"github.com/ChainSafe/chainbridge-core/chains/evm/listener"
 	"github.com/ChainSafe/chainbridge-core/chains/evm/voter"
@@ -24,7 +23,6 @@ import (
 	"github.com/ChainSafe/chainbridge-core/opentelemetry"
 	"github.com/ChainSafe/chainbridge-core/relayer"
 	"github.com/ChainSafe/chainbridge-core/store"
-	optimism "github.com/ChainSafe/chainbridge-optimism-module"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
@@ -44,51 +42,39 @@ func Run() error {
 	chains := []relayer.RelayedChain{}
 	for _, chainConfig := range configuration.ChainConfigs {
 		switch chainConfig["type"] {
-		case "evm":
+		case "evm", "celo":
 			{
-				chain, err := evm.SetupDefaultEVMChain(chainConfig, evmtransaction.NewTransaction, blockstore)
+				evmConfig, err := chain.NewEVMConfig(chainConfig)
 				if err != nil {
 					panic(err)
 				}
-
-				chains = append(chains, chain)
-			}
-		case "celo":
-			{
-				config, err := chain.NewEVMConfig(chainConfig)
-				if err != nil {
-					panic(err)
-				}
-				client, err := evmclient.NewEVMClient(config)
+				client, err := evmclient.NewEVMClient(evmConfig)
 				if err != nil {
 					panic(err)
 				}
 				gasPricer := evmgaspricer.NewStaticGasPriceDeterminant(client, nil)
 				t := signAndSend.NewSignAndSendTransactor(transaction.NewCeloTransaction, gasPricer, client)
-				bridgeContract := bridge.NewBridgeContract(client, common.HexToAddress(config.Bridge), t)
+				bridgeContract := bridge.NewBridgeContract(client, common.HexToAddress(evmConfig.Bridge), t)
 
 				eventHandler := listener.NewETHEventHandler(*bridgeContract)
-				eventHandler.RegisterEventHandler(config.Erc20Handler, listener.Erc20EventHandler)
-				eventHandler.RegisterEventHandler(config.Erc721Handler, listener.Erc721EventHandler)
-				eventHandler.RegisterEventHandler(config.GenericHandler, listener.GenericEventHandler)
-				evmListener := listener.NewEVMListener(client, eventHandler, common.HexToAddress(config.Bridge))
-
 				mh := voter.NewEVMMessageHandler(*bridgeContract)
-				mh.RegisterMessageHandler(config.Erc20Handler, voter.ERC20MessageHandler)
-				mh.RegisterMessageHandler(config.Erc721Handler, voter.ERC721MessageHandler)
-				mh.RegisterMessageHandler(config.GenericHandler, voter.GenericMessageHandler)
 
-				evmVoter := voter.NewVoter(mh, client, bridgeContract)
-				chains = append(chains, evm.NewEVMChain(evmListener, evmVoter, blockstore, config))
-			}
-		case "optimism":
-			{
-				chain, err := optimism.SetupDefaultOptimismChain(chainConfig, evmtransaction.NewTransaction, blockstore)
-				if err != nil {
-					panic(err)
+				for _, erc20HandlerContract := range evmConfig.Erc20Handlers {
+					eventHandler.RegisterEventHandler(erc20HandlerContract, listener.Erc20EventHandler)
+					mh.RegisterMessageHandler(erc20HandlerContract, voter.ERC20MessageHandler)
+				}
+				for _, erc721HandlerContract := range evmConfig.Erc721Handlers {
+					eventHandler.RegisterEventHandler(erc721HandlerContract, listener.Erc721EventHandler)
+					mh.RegisterMessageHandler(erc721HandlerContract, voter.ERC721MessageHandler)
+				}
+				for _, genericHandlerContract := range evmConfig.GenericHandlers {
+					eventHandler.RegisterEventHandler(genericHandlerContract, listener.GenericEventHandler)
+					mh.RegisterMessageHandler(genericHandlerContract, voter.GenericMessageHandler)
 				}
 
-				chains = append(chains, chain)
+				evmListener := listener.NewEVMListener(client, eventHandler, common.HexToAddress(evmConfig.Bridge))
+				evmVoter := voter.NewVoter(mh, client, bridgeContract)
+				chains = append(chains, evm.NewEVMChain(evmListener, evmVoter, blockstore, evmConfig))
 			}
 		}
 	}

@@ -4,10 +4,10 @@ FROM ethereum/client-go:v1.10.8
 
 WORKDIR /root
 
-COPY ./genesis.json .
-COPY ./keystore /root/keystore
+COPY genesis.json .
+COPY keystore /root/keystore
 COPY entrypoint.sh .
-COPY ./password.txt .
+COPY password.txt .
 
 RUN chmod +x entrypoint.sh
 

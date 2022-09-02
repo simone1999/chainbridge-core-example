@@ -1,7 +1,7 @@
 # Copyright 2020 ChainSafe Systems
 # SPDX-License-Identifier: LGPL-3.0-only
 
-FROM  golang:1.16-stretch AS builder
+FROM  golang:1.17-stretch AS builder
 ADD . /src
 WORKDIR /src
 RUN go mod download
@@ -15,7 +15,10 @@ RUN wget -P /usr/local/bin/ https://chainbridge.ams3.digitaloceanspaces.com/subk
   && chmod +x /usr/local/bin/subkey
 RUN subkey --version
 
-COPY --from=builder /bridge ./
+COPY --from=builder /bridge .
 RUN chmod +x ./bridge
 
-ENTRYPOINT ["./bridge"]
+ADD /config ./config
+ADD /keys ./keys
+
+CMD ["./bridge", "run", "--config", "./config/relayer_1.json", "--blockstore", "./lvldb/lvldbdata1"]

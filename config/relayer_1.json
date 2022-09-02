@@ -2,52 +2,89 @@
   "relayer": {},
   "chains": [
     {
-      "name": "celo",
-      "type": "celo",
-      "id": 2,
-      "endpoint": "wss://alfajores-forno.celo-testnet.org/ws",
-      "from": "0xbF7B65BC24bD9c8C63252677C8089572d4720029",
-      "bridge": "0x7B4ff372ec4159404c6d216C34F6d0B29F080665",
-      "erc20Handler": "0x442E7f13AA0cfAbF3FfaEfA4649f5fBe68ff9db2",
-      "gasLimit": 9000000,
-      "maxGasPrice": 2000000000,
-      "blockConfirmations": 10
-    },
-    {
-      "name": "goerli",
+      "name": "bsc",
       "type": "evm",
       "id": 1,
-      "endpoint": "wss://eth-goerli.alchemyapi.io/v2/9jcoyKYv-uf2VMIALqA_ul6qBT5sXMJh",
-      "from": "0xbF7B65BC24bD9c8C63252677C8089572d4720029",
-      "bridge": "0x537949Ad4d0CBf45E4Bb6B921FF49acD93cd040b",
-      "erc20Handler": "0x3c30b56DEd047fe6225f7004Ea4be1ae70C9026a",
+      "networkId": 56,
+      "endpoint": "https://bscrpc.com",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
+      "bridge": "0xDC2393dc10734BF153153038943a5deB42b209cd",
+      "erc20Handlers": [
+        "0xC7E6d7E08A89209F02af47965337714153c529F0"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
       "gasLimit": 9000000,
-      "maxGasPrice": 20000000000,
-      "blockConfirmations": 10
+      "maxGasPrice": 15000000000,
+      "blockConfirmations": 10,
+      "nativeTokenSymbol": "BNB",
+      "decimals": 18,
+      "tokens": [
+        {
+          "address": "0xce6c9c70f91c6797873EFC80505f972290A88f5D",
+          "name": "IceCream",
+          "symbol": "ICE",
+          "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xce6c9c70f91c6797873EFC80505f972290A88f5D/logo.png",
+          "resourceId": "0x0000000000000000000000B999Ea90607a826A3E6E6646B404c3C7d11fa39D02"
+        },
+        {
+          "address": "0x55d398326f99059fF775485246999027B3197955",
+          "name": "Tether USD",
+          "symbol": "USDT",
+          "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xC7E6d7E08A89209F02af47965337714153c529F0/logo.png",
+          "resourceId": "0x0000000000000000000000C7E6d7E08A89209F02af47965337714153c529F001"
+        },
+        {
+          "address": "0x28B9aed756De31B6b362aA0f23211D13093EBb79",
+          "name": "LunaGens",
+          "symbol": "LUNG",
+          "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xc3b730dD10A7e9A69204bDf6cb5A426e4f1F09E3/logo.png",
+          "resourceId": "0x000000000000000000000028B9aed756De31B6b362aA0f23211D13093EBb7901"
+        }
+      ]
     },
     {
-      "name": "rinkeby",
+      "name": "bitgert",
       "type": "evm",
-      "id": 0,
-      "endpoint": "wss://eth-rinkeby.alchemyapi.io/v2/Pgb6UvWBwyYNRyn1_19HqhSpbRtK-74W",
-      "from": "0xbF7B65BC24bD9c8C63252677C8089572d4720029",
-      "bridge": "0x894E63d6eba8173a291A47979335a745788170Af",
-      "erc20Handler": "0xCAe16A9e0ED433C3612A89755e5580a9f0B6C889",
-      "gasLimit": 8000000,
-      "maxGasPrice": 20000000000,
-      "blockConfirmations": 10
-    },
-    {
-      "name": "polygon",
-      "type": "evm",
-      "id":3,
-      "endpoint":"wss://polygon-mumbai.g.alchemy.com/v2/NVK896meM89QkTJi7AmkHc8MaRa0z1PL",
-      "from":"0xbF7B65BC24bD9c8C63252677C8089572d4720029",
-      "bridge":"0xd1BB2D0f09E35d47d06e62c9c25421BB2Be77DAE",
-      "erc20Handler":"0x97E3650BB89025cB1cDda3aB8A77BD702f0aBFb6",
-      "gasLimit":8000000,
-      "maxGasPrice":20000000000,
-      "blockConfirmations":10
+      "id": 2,
+      "networkId": 32520,
+      "endpoint": "https://rpc.icecreamswap.com",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
+      "bridge": "0x12AA82525DEfF84777fa78578A68ceB854A85f43",
+      "erc721Handlers": [],
+      "erc20Handlers": [
+        "0x8687cD1d02A28098571067ddB18F33fEF667C929",
+        "0xA0F473D334f1b3E67b15A97259eba822a747FcEA"
+      ],
+      "genericHandlers": [],
+      "gasLimit": 7000000,
+      "maxGasPrice": 1000000000000,
+      "blockConfirmations": 4,
+      "nativeTokenSymbol": "Brise",
+      "decimals": 18,
+      "tokens": [
+        {
+          "address": "0xB999Ea90607a826A3E6E6646B404c3C7d11fa39D",
+          "name": "IceCream",
+          "symbol": "ICE",
+          "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xB999Ea90607a826A3E6E6646B404c3C7d11fa39D/logo.png",
+          "resourceId": "0x0000000000000000000000B999Ea90607a826A3E6E6646B404c3C7d11fa39D02"
+        },
+        {
+          "address": "0xC7E6d7E08A89209F02af47965337714153c529F0",
+          "name": "Tether USD IceCream",
+          "symbol": "USDTi",
+          "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xC7E6d7E08A89209F02af47965337714153c529F0/logo.png",
+          "resourceId": "0x0000000000000000000000C7E6d7E08A89209F02af47965337714153c529F001"
+        },
+        {
+          "address": "0xc3b730dD10A7e9A69204bDf6cb5A426e4f1F09E3",
+          "name": "LunaGens",
+          "symbol": "LUNG",
+          "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xc3b730dD10A7e9A69204bDf6cb5A426e4f1F09E3/logo.png",
+          "resourceId": "0x000000000000000000000028B9aed756De31B6b362aA0f23211D13093EBb7901"
+        }
+      ]
     }
   ]
 }
