@@ -66,16 +66,8 @@ github.com/Azure/go-autorest/logger v0.1.0/go.mod h1:oExouG+K6PryycPJfVSxi/koC6L
 github.com/Azure/go-autorest/tracing v0.5.0/go.mod h1:r/s2XiOKccPW3HrqB+W0TQzfbtp2fGCgRFtBroKn4Dk=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/BurntSushi/xgb v0.0.0-20160522181843-27f122750802/go.mod h1:IVnqGOEym/WlBOVXweHU+Q+/VP0lqqI8lqeDx9IjBqo=
-github.com/ChainSafe/chainbridge-celo-module v0.0.0-20220107113949-c7fd9c5f44ac h1:AHQArsS7FJ+8dJLCczgCle3ZmpbmGemqri2lFqMyF5s=
-github.com/ChainSafe/chainbridge-celo-module v0.0.0-20220107113949-c7fd9c5f44ac/go.mod h1:X7Eo2sSDiuL5SHmHyl37dvA/x8kvhkn77WmpiTEYXM0=
 github.com/ChainSafe/chainbridge-celo-module v0.0.0-20220121131741-69b2ecf7dec5 h1:GM8u1lfdyp/Px8rQucrXc86AZOv3tpeYfOYQQiTBO+0=
 github.com/ChainSafe/chainbridge-celo-module v0.0.0-20220121131741-69b2ecf7dec5/go.mod h1:HfwQHGb/mNoN0Sp9A901R5N0gKvKCI6dOp3hxzn9AFM=
-github.com/ChainSafe/chainbridge-core v0.0.0-20220107093555-abe81620e6a2/go.mod h1:pPeoZTMorrRL+bUOvLDa0P5pe8dZpNLNJBDq3ZE+O4M=
-github.com/ChainSafe/chainbridge-core v0.0.0-20220117151815-684ae464fb8d/go.mod h1:Nl4pM/lJ/Acf/mk4vDv9kXx5mvoupzz5Z8UpdTDUOjI=
-github.com/ChainSafe/chainbridge-core v0.0.0-20220120162654-c03a4d159125 h1:XQUh26x/12E7HkE8oOtyErYWJa6nSO87Y8efcg9yq9U=
-github.com/ChainSafe/chainbridge-core v0.0.0-20220120162654-c03a4d159125/go.mod h1:Nl4pM/lJ/Acf/mk4vDv9kXx5mvoupzz5Z8UpdTDUOjI=
-github.com/ChainSafe/chainbridge-optimism-module v0.0.0-20220120152056-f3c4c2e4ea5b h1:MRZFjkL2HUwAJKu/2ZjWIEN47oTlBZ4gbR/fE/lGTzI=
-github.com/ChainSafe/chainbridge-optimism-module v0.0.0-20220120152056-f3c4c2e4ea5b/go.mod h1:wFgJGRrir4cjA6/H04/SrGI7vMx+Huce5wHdQONCty0=
 github.com/DATA-DOG/go-sqlmock v1.3.3/go.mod h1:f/Ixk793poVmq4qj/V1dPUg2JEAKC73Q5eFN3EC/SaM=
 github.com/DataDog/datadog-go v3.2.0+incompatible/go.mod h1:LButxg5PwREeZtORoXG3tL4fMGNddJ+vMq1mwgfaqoQ=
 github.com/OneOfOne/xxhash v1.2.2/go.mod h1:HSdplMjZKSmBqAxg5vPj2TmRDmfkzw+cTzAElWljhcU=
@@ -645,6 +637,8 @@ github.com/shirou/gopsutil v3.21.4-0.20210419000835-c7a38de76ee5+incompatible/go
 github.com/shirou/gopsutil v3.21.10+incompatible h1:AL2kpVykjkqeN+MFe1WcwSBVUjGjvdU8/ubvCuXAjrU=
 github.com/shirou/gopsutil v3.21.10+incompatible/go.mod h1:5b4v6he4MtMOwMlS0TUMTu2PcXUg8+E1lC7eC3UO/RA=
 github.com/shurcooL/sanitized_anchor_name v1.0.0/go.mod h1:1NzhyTcUVG4SuEtjjoZeVRXNmyL/1OwPU0+IJeTBvfc=
+github.com/simone1999/sygma-core v0.1.1 h1:6OuhWhE7FFMQetMoEuV/4e9YlGTrn9kOggN7oKRyw2Y=
+github.com/simone1999/sygma-core v0.1.1/go.mod h1:Nl4pM/lJ/Acf/mk4vDv9kXx5mvoupzz5Z8UpdTDUOjI=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
 github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d/go.mod h1:OnSkiWE9lh6wB0YB77sQom3nweQdgAjqCqsofrRNTgc=

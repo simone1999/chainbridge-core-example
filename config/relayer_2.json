@@ -6,14 +6,16 @@
       "type": "evm",
       "id": 1,
       "networkId": 56,
-      "endpoint": "https://bscrpc.com",
+      "endpoint": "wss://divine-black-yard.bsc.discover.quiknode.pro/b8389d28bb807f89b5bd0db513151b926eced956/",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0xDC2393dc10734BF153153038943a5deB42b209cd",
-      "disabled_erc721Handler": "",
-      "erc20Handler": "0xC7E6d7E08A89209F02af47965337714153c529F0",
-      "disabled_genericHandler": "",
+      "erc20Handlers": [
+        "0xC7E6d7E08A89209F02af47965337714153c529F0"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
       "gasLimit": 9000000,
-      "maxGasPrice": 10000000000,
+      "maxGasPrice": 20000000000,
       "blockConfirmations": 40,
       "nativeTokenSymbol": "BNB",
       "decimals": 18,
@@ -31,6 +33,13 @@
           "symbol": "USDT",
           "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xC7E6d7E08A89209F02af47965337714153c529F0/logo.png",
           "resourceId": "0x0000000000000000000000C7E6d7E08A89209F02af47965337714153c529F001"
+        },
+        {
+          "address": "0x28B9aed756De31B6b362aA0f23211D13093EBb79",
+          "name": "LunaGens",
+          "symbol": "LUNG",
+          "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xc3b730dD10A7e9A69204bDf6cb5A426e4f1F09E3/logo.png",
+          "resourceId": "0x000000000000000000000028B9aed756De31B6b362aA0f23211D13093EBb7901"
         }
       ]
     },
@@ -42,9 +51,12 @@
       "endpoint": "https://rpc.icecreamswap.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x12AA82525DEfF84777fa78578A68ceB854A85f43",
-      "disabled_erc721Handler": "",
-      "erc20Handler": "0x8687cD1d02A28098571067ddB18F33fEF667C929",
-      "disabled_genericHandler": "",
+      "erc20Handlers": [
+        "0x8687cD1d02A28098571067ddB18F33fEF667C929",
+        "0xeF6b7BC74C9354BCf2e3F2A068e4b0B5CDf08F29"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
       "gasLimit": 7000000,
       "maxGasPrice": 1000000000000,
       "blockConfirmations": 8,
@@ -64,6 +76,13 @@
           "symbol": "USDTi",
           "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xC7E6d7E08A89209F02af47965337714153c529F0/logo.png",
           "resourceId": "0x0000000000000000000000C7E6d7E08A89209F02af47965337714153c529F001"
+        },
+        {
+          "address": "0xc3b730dD10A7e9A69204bDf6cb5A426e4f1F09E3",
+          "name": "LunaGens",
+          "symbol": "LUNG",
+          "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xc3b730dD10A7e9A69204bDf6cb5A426e4f1F09E3/logo.png",
+          "resourceId": "0x000000000000000000000028B9aed756De31B6b362aA0f23211D13093EBb7901"
         }
       ]
     }
