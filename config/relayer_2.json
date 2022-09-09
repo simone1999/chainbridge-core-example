@@ -8,9 +8,9 @@
       "networkId": 56,
       "endpoint": "wss://divine-black-yard.bsc.discover.quiknode.pro/b8389d28bb807f89b5bd0db513151b926eced956/",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0xDC2393dc10734BF153153038943a5deB42b209cd",
+      "bridge": "0x8e6dAa037b7F130020b30562f1E2a5D02233E6c5",
       "erc20Handlers": [
-        "0xC7E6d7E08A89209F02af47965337714153c529F0"
+        "0x50a29cc575Ed0e23017A4202bAb88415E3B6aCC3"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
@@ -50,10 +50,10 @@
       "networkId": 32520,
       "endpoint": "https://rpc.icecreamswap.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x12AA82525DEfF84777fa78578A68ceB854A85f43",
+      "bridge": "0xE8b0dF74192CCA9C4de66F23653476f6e6CD1d98",
       "erc20Handlers": [
-        "0x8687cD1d02A28098571067ddB18F33fEF667C929",
-        "0xeF6b7BC74C9354BCf2e3F2A068e4b0B5CDf08F29"
+        "0x2D43a3fC6C29c5840102b3eDDB8eCEd3BD3433A6",
+        "0x0F7B1a1E408E3f6d259B40f0769391afaf8deB33"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
