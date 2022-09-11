@@ -6,7 +6,7 @@
       "type": "evm",
       "id": 1,
       "networkId": 56,
-      "endpoint": "wss://divine-black-yard.bsc.discover.quiknode.pro/b8389d28bb807f89b5bd0db513151b926eced956/",
+      "endpoint": "https://divine-black-yard.bsc.discover.quiknode.pro/b8389d28bb807f89b5bd0db513151b926eced956/",
       "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0x8e6dAa037b7F130020b30562f1E2a5D02233E6c5",
       "erc20Handlers": [
@@ -82,6 +82,13 @@
           "symbol": "USDC",
           "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xaEdD3Ff7b9Fc5fc4e44d140b80f0B1C7FdB6102c/logo.png",
           "resourceId": "0x00000000000000000000008AC76a51cc950d9822D68b83fE1Ad97B32Cd580d01"
+        },
+        {
+          "address": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+          "name": "BUSD",
+          "symbol": "BUSD",
+          "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xd0CE781960c6356A7175988751bfC8d7cd28EA60/logo.png",
+          "resourceId": "0x0000000000000000000000e9e7CEA3DedcA5984780Bafc599bD69ADd087D5601"
         }
       ]
     },
@@ -167,6 +174,13 @@
           "symbol": "USDCi",
           "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xaEdD3Ff7b9Fc5fc4e44d140b80f0B1C7FdB6102c/logo.png",
           "resourceId": "0x00000000000000000000008AC76a51cc950d9822D68b83fE1Ad97B32Cd580d01"
+        },
+        {
+          "address": "0xd0CE781960c6356A7175988751bfC8d7cd28EA60",
+          "name": "BUSD",
+          "symbol": "BUSDi",
+          "imageUri": "https://raw.githubusercontent.com/simone1999/trustwallet-assets/master/blockchains/bitgert/assets/0xd0CE781960c6356A7175988751bfC8d7cd28EA60/logo.png",
+          "resourceId": "0x0000000000000000000000e9e7CEA3DedcA5984780Bafc599bD69ADd087D5601"
         }
       ]
     }
