@@ -9,17 +9,17 @@
       "id": 1,
       "networkId": 56,
       "endpoint": "https://divine-black-yard.bsc.discover.quiknode.pro/b8389d28bb807f89b5bd0db513151b926eced956/",
-      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0x8e6dAa037b7F130020b30562f1E2a5D02233E6c5",
       "erc20Handlers": [
         "0x50a29cc575Ed0e23017A4202bAb88415E3B6aCC3"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 21725081,
-      "gasLimit": 2000000,
-      "maxGasPrice": 30000000000,
-      "blockConfirmations": 40,
+      "startBlock": 22403651,
+      "gasLimit": 1000000,
+      "maxGasPrice": 15000000000,
+      "blockConfirmations": 20,
       "nativeTokenSymbol": "BNB",
       "decimals": 18
     },
@@ -29,7 +29,7 @@
       "id": 2,
       "networkId": 32520,
       "endpoint": "https://rpc.icecreamswap.com",
-      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0xE8b0dF74192CCA9C4de66F23653476f6e6CD1d98",
       "erc20Handlers": [
         "0x2D43a3fC6C29c5840102b3eDDB8eCEd3BD3433A6",
@@ -38,10 +38,10 @@
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 1311612,
+      "startBlock": 1457917,
       "gasLimit": 7000000,
       "maxGasPrice": 1000000000000,
-      "blockConfirmations": 12,
+      "blockConfirmations": 8,
       "nativeTokenSymbol": "Brise",
       "decimals": 18
     },
@@ -50,18 +50,18 @@
       "type": "evm",
       "id": 3,
       "networkId": 2000,
-      "endpoint": "https://dogechain.ankr.com",
-      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "endpoint": "https://rpc.dogechain.dog",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f",
       "erc20Handlers": [
         "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 2708953,
+      "startBlock": 3686712,
       "gasLimit": 1000000,
       "maxGasPrice": 200000000000,
-      "blockConfirmations": 90,
+      "blockConfirmations": 60,
       "nativeTokenSymbol": "Doge",
       "decimals": 18
     },
@@ -70,18 +70,18 @@
       "type": "evm",
       "id": 4,
       "networkId": 61916,
-      "endpoint": "https://nyrpc.doken.dev",
-      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "endpoint": "https://ukrpc.doken.dev",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44",
       "erc20Handlers": [
         "0x81bCEa03678D1CEF4830942227720D542Aa15817"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 151094,
+      "startBlock": 273729,
       "gasLimit": 7000000,
       "maxGasPrice": 1000000000000,
-      "blockConfirmations": 18,
+      "blockConfirmations": 12,
       "nativeTokenSymbol": "DKN",
       "decimals": 18
     },
@@ -90,8 +90,8 @@
       "type": "evm",
       "id": 5,
       "networkId": 122,
-      "endpoint": "https://fuse-mainnet.chainstacklabs.com",
-      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "endpoint": "https://rpc.fuse.io",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0x81bCEa03678D1CEF4830942227720D542Aa15817",
       "erc20Handlers": [
         "0x54051D9DbE99687867090d95fe15C3D3E35512Ba"
@@ -101,7 +101,7 @@
       "startBlock": 19810168,
       "gasLimit": 7000000,
       "maxGasPrice": 100000000000,
-      "blockConfirmations": 36,
+      "blockConfirmations": 24,
       "nativeTokenSymbol": "FUSE",
       "decimals": 18
     }

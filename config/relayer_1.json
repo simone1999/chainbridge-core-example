@@ -28,17 +28,18 @@
       "type": "evm",
       "id": 2,
       "networkId": 32520,
-      "endpoint": "https://rpc.icecreamswap.com",
+      "endpoint": "http://bitgert_rpc_archive.private_dns:8545",
       "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0xE8b0dF74192CCA9C4de66F23653476f6e6CD1d98",
       "erc20Handlers": [
         "0x2D43a3fC6C29c5840102b3eDDB8eCEd3BD3433A6",
-        "0x0F7B1a1E408E3f6d259B40f0769391afaf8deB33"
+        "0x0F7B1a1E408E3f6d259B40f0769391afaf8deB33",
+        "0x604BdA7A7ea8C23CFFC93c463d2179766c21Cb95"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 1311612,
-      "gasLimit": 7000000,
+      "startBlock": 1398007,
+      "gasLimit": 5000000,
       "maxGasPrice": 1000000000000,
       "blockConfirmations": 8,
       "nativeTokenSymbol": "Brise",
@@ -62,6 +63,46 @@
       "maxGasPrice": 200000000000,
       "blockConfirmations": 60,
       "nativeTokenSymbol": "Doge",
+      "decimals": 18
+    },
+    {
+      "name": "Doken",
+      "type": "evm",
+      "id": 4,
+      "networkId": 61916,
+      "endpoint": "https://ukrpc.doken.dev",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
+      "bridge": "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44",
+      "erc20Handlers": [
+        "0x81bCEa03678D1CEF4830942227720D542Aa15817"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 151094,
+      "gasLimit": 5000000,
+      "maxGasPrice": 1000000000000,
+      "blockConfirmations": 12,
+      "nativeTokenSymbol": "DKN",
+      "decimals": 18
+    },
+    {
+      "name": "Fuse",
+      "type": "evm",
+      "id": 5,
+      "networkId": 122,
+      "endpoint": "https://rpc.fuse.io",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
+      "bridge": "0x81bCEa03678D1CEF4830942227720D542Aa15817",
+      "erc20Handlers": [
+        "0x54051D9DbE99687867090d95fe15C3D3E35512Ba"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 19810168,
+      "gasLimit": 7000000,
+      "maxGasPrice": 100000000000,
+      "blockConfirmations": 24,
+      "nativeTokenSymbol": "FUSE",
       "decimals": 18
     }
   ]
