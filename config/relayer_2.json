@@ -28,7 +28,7 @@
       "type": "evm",
       "id": 2,
       "networkId": 32520,
-      "endpoint": "https://rpc.icecreamswap.com",
+      "endpoint": "https://rpc-internal.icecreamswap.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0xE8b0dF74192CCA9C4de66F23653476f6e6CD1d98",
       "erc20Handlers": [
@@ -103,6 +103,27 @@
       "maxGasPrice": 100000000000,
       "blockConfirmations": 36,
       "nativeTokenSymbol": "FUSE",
+      "decimals": 18
+    },
+    {
+      "name": "XDC",
+      "type": "evm",
+      "id": 6,
+      "networkId": 50,
+      "endpoint": "https://erpc.xinfin.network",
+      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "bridge": "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f",
+      "erc20Handlers": [
+        "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44",
+        "0x81bCEa03678D1CEF4830942227720D542Aa15817"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 53844753,
+      "gasLimit": 1000000,
+      "maxGasPrice": 1000000000000,
+      "blockConfirmations": 90,
+      "nativeTokenSymbol": "XDC",
       "decimals": 18
     }
   ]

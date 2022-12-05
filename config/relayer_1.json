@@ -39,7 +39,7 @@
       "erc721Handlers": [],
       "genericHandlers": [],
       "startBlock": 1398007,
-      "gasLimit": 5000000,
+      "gasLimit": 1000000,
       "maxGasPrice": 1000000000000,
       "blockConfirmations": 8,
       "nativeTokenSymbol": "Brise",
@@ -79,7 +79,7 @@
       "erc721Handlers": [],
       "genericHandlers": [],
       "startBlock": 151094,
-      "gasLimit": 5000000,
+      "gasLimit": 1000000,
       "maxGasPrice": 1000000000000,
       "blockConfirmations": 12,
       "nativeTokenSymbol": "DKN",
@@ -99,10 +99,31 @@
       "erc721Handlers": [],
       "genericHandlers": [],
       "startBlock": 19810168,
-      "gasLimit": 7000000,
+      "gasLimit": 1000000,
       "maxGasPrice": 100000000000,
       "blockConfirmations": 24,
       "nativeTokenSymbol": "FUSE",
+      "decimals": 18
+    },
+    {
+      "name": "XDC",
+      "type": "evm",
+      "id": 6,
+      "networkId": 50,
+      "endpoint": "https://erpc.xinfin.network",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
+      "bridge": "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f",
+      "erc20Handlers": [
+        "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44",
+        "0x81bCEa03678D1CEF4830942227720D542Aa15817"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 53844753,
+      "gasLimit": 1000000,
+      "maxGasPrice": 1000000000000,
+      "blockConfirmations": 60,
+      "nativeTokenSymbol": "XDC",
       "decimals": 18
     }
   ]
