@@ -131,7 +131,7 @@
       "type": "evm",
       "id": 8,
       "networkId": 2415,
-      "endpoint": "https://xo-dex.io",
+      "endpoint": "https://explorer.xo-chain.com/icecreamswap",
       "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f",
       "erc20Handlers": [
