@@ -36,7 +36,7 @@ This section will detail how to properly configure `chainbridge-core` and get st
 
 ### Configuring chains
 Chains are configured as an array under `chains` tag inside provided config. Inside
-[example](./example/app.go) we then go through all chain configs and create an
+[example](relayer/app.go) we then go through all chain configs and create an
 instance of `RelayedChain` via `SetupDefaultEVMChain` that registers handlers
 for provided handler addresses in config (currently supported: erc20, erc721, generic).
 

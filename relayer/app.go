@@ -1,7 +1,7 @@
 // Copyright 2021 ChainSafe Systems
 // SPDX-License-Identifier: LGPL-3.0-only
 
-package example
+package relayer
 
 import (
 	"github.com/ChainSafe/chainbridge-core/chains/evm/calls"
@@ -68,7 +68,6 @@ func Run() error {
 				if err != nil {
 					panic(err)
 				}
-
 				gasPricer := evmgaspricer.NewLondonGasPriceClient(client, nil)
 				t := signAndSend.NewSignAndSendTransactor(evmtransaction.NewTransaction, gasPricer, client)
 				bridgeContract := bridge.NewBridgeContract(client, common.HexToAddress(evmConfig.Bridge), t)
@@ -90,6 +89,7 @@ func Run() error {
 				}
 
 				evmListener := listener.NewEVMListener(client, eventHandler, common.HexToAddress(evmConfig.Bridge))
+
 				var evmVoter *voter.EVMVoter
 				evmVoter, err = voter.NewVoterWithSubscription(mh, client, bridgeContract)
 				if err != nil {

@@ -5,7 +5,7 @@ package cmd
 
 import (
 	cCLI "github.com/ChainSafe/chainbridge-celo-module/cli"
-	"github.com/ChainSafe/chainbridge-core-example/example"
+	"github.com/ChainSafe/chainbridge-core-example/relayer"
 	evmCLI "github.com/ChainSafe/chainbridge-core/chains/evm/cli"
 	"github.com/ChainSafe/chainbridge-core/flags"
 	"github.com/rs/zerolog/log"
@@ -18,10 +18,10 @@ var (
 	}
 	runCMD = &cobra.Command{
 		Use:   "run",
-		Short: "Run example app",
-		Long:  "Run example app",
+		Short: "Run relayer app",
+		Long:  "Run relayer app",
 		RunE: func(cmd *cobra.Command, args []string) error {
-			if err := example.Run(); err != nil {
+			if err := relayer.Run(); err != nil {
 				return err
 			}
 			return nil
