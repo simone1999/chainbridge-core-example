@@ -97,6 +97,12 @@ func Run() error {
 					evmVoter = voter.NewVoter(mh, client, bridgeContract)
 				}
 
+				//var evmVoter *sqs_voter.EVMProposerSQS
+				//evmVoter, err = sqs_voter.NewVoter(mh, client, bridgeContract, *evmConfig.GeneralChainConfig.Id, "IcecreamBridgeRelayer1Proposals")
+				//if err != nil {
+				//	panic(err)
+				//}
+
 				chains = append(chains, evm.NewEVMChain(evmListener, evmVoter, blockstore, evmConfig))
 				clients[*evmConfig.GeneralChainConfig.Id] = client
 				transactors[*evmConfig.GeneralChainConfig.Id] = t
