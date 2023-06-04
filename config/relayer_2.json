@@ -28,7 +28,7 @@
       "type": "evm",
       "id": 2,
       "networkId": 32520,
-      "endpoint": "https://nodes.vefinetwork.org/bitgert",
+      "endpoint": "https://flux-rpc.brisescan.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0xE8b0dF74192CCA9C4de66F23653476f6e6CD1d98",
       "erc20Handlers": [
