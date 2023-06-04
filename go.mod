@@ -2,7 +2,7 @@ module github.com/ChainSafe/chainbridge-core-example
 
 go 1.15
 
-replace github.com/ChainSafe/chainbridge-core => github.com/simone1999/sygma-core v0.1.5
+replace github.com/ChainSafe/chainbridge-core => github.com/simone1999/sygma-core v0.1.6-0.20221203135319-ae3e237aab81
 
 // replace github.com/ChainSafe/chainbridge-core => ../sygma-core
 
