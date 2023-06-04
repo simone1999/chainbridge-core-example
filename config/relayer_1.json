@@ -28,7 +28,7 @@
       "type": "evm",
       "id": 2,
       "networkId": 32520,
-      "endpoint": "http://bitgert_rpc_archive.private_dns:8545",
+      "endpoint": "https://rpc-internal.icecreamswap.com",
       "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0xE8b0dF74192CCA9C4de66F23653476f6e6CD1d98",
       "erc20Handlers": [
@@ -63,26 +63,6 @@
       "maxGasPrice": 200000000000,
       "blockConfirmations": 60,
       "nativeTokenSymbol": "Doge",
-      "decimals": 18
-    },
-    {
-      "name": "Doken",
-      "type": "evm",
-      "id": 4,
-      "networkId": 61916,
-      "endpoint": "https://ukrpc.doken.dev",
-      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
-      "bridge": "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44",
-      "erc20Handlers": [
-        "0x81bCEa03678D1CEF4830942227720D542Aa15817"
-      ],
-      "erc721Handlers": [],
-      "genericHandlers": [],
-      "startBlock": 151094,
-      "gasLimit": 1000000,
-      "maxGasPrice": 1000000000000,
-      "blockConfirmations": 12,
-      "nativeTokenSymbol": "DKN",
       "decimals": 18
     },
     {
@@ -124,6 +104,46 @@
       "maxGasPrice": 1000000000000,
       "blockConfirmations": 60,
       "nativeTokenSymbol": "XDC",
+      "decimals": 18
+    },
+    {
+      "name": "CORE",
+      "type": "evm",
+      "id": 7,
+      "networkId": 1116,
+      "endpoint": "https://rpc.coredao.org",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
+      "bridge": "0x54051D9DbE99687867090d95fe15C3D3E35512Ba",
+      "erc20Handlers": [
+        "0x867f08A3ab824b42e8058a1B48e32E1dF205b092"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 853609,
+      "gasLimit": 1000000,
+      "maxGasPrice": 50000000000,
+      "blockConfirmations": 40,
+      "nativeTokenSymbol": "CORE",
+      "decimals": 18
+    },
+    {
+      "name": "XoDex",
+      "type": "evm",
+      "id": 8,
+      "networkId": 2415,
+      "endpoint": "https://xo-dex.io",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
+      "bridge": "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f",
+      "erc20Handlers": [
+        "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 4340369,
+      "gasLimit": 1000000,
+      "maxGasPrice": 5000000,
+      "blockConfirmations": 40,
+      "nativeTokenSymbol": "XODEX",
       "decimals": 18
     }
   ]
