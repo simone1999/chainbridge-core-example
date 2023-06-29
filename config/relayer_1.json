@@ -145,6 +145,26 @@
       "blockConfirmations": 40,
       "nativeTokenSymbol": "XODEX",
       "decimals": 18
+    },
+    {
+      "name": "Telos",
+      "type": "evm",
+      "id": 9,
+      "networkId": 40,
+      "endpoint": "https://mainnet.telos.net/evm",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
+      "bridge": "0xce6c9c70f91c6797873EFC80505f972290A88f5D",
+      "erc20Handlers": [
+        "0x905caAE1627856529BEd7b9572F02af5e5Ac6cA7"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 286184674,
+      "gasLimit": 1000000,
+      "maxGasPrice": 2000000000000,
+      "blockConfirmations": 120,
+      "nativeTokenSymbol": "TLOS",
+      "decimals": 18
     }
   ]
 }

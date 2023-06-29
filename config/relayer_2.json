@@ -28,7 +28,7 @@
       "type": "evm",
       "id": 2,
       "networkId": 32520,
-      "endpoint": "https://flux-rpc.brisescan.com",
+      "endpoint": "https://rpc-internal.icecreamswap.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0xE8b0dF74192CCA9C4de66F23653476f6e6CD1d98",
       "erc20Handlers": [
@@ -144,6 +144,26 @@
       "maxGasPrice": 5000000,
       "blockConfirmations": 60,
       "nativeTokenSymbol": "XODEX",
+      "decimals": 18
+    },
+    {
+      "name": "Telos",
+      "type": "evm",
+      "id": 9,
+      "networkId": 40,
+      "endpoint": "https://rpc1.us.telos.net/evm",
+      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "bridge": "0xce6c9c70f91c6797873EFC80505f972290A88f5D",
+      "erc20Handlers": [
+        "0x905caAE1627856529BEd7b9572F02af5e5Ac6cA7"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 286184674,
+      "gasLimit": 1000000,
+      "maxGasPrice": 2000000000000,
+      "blockConfirmations": 240,
+      "nativeTokenSymbol": "TLOS",
       "decimals": 18
     }
   ]
