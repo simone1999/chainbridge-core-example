@@ -8,7 +8,7 @@ RUN go mod download
 RUN go build -o /bridge .
 
 # # final stage
-FROM debian:stretch-slim
+FROM debian:stable-slim
 RUN apt-get -y update && apt-get -y upgrade && apt-get install ca-certificates wget -y
 RUN wget -P /usr/local/bin/ https://chainbridge.ams3.digitaloceanspaces.com/subkey-rc6 \
   && mv /usr/local/bin/subkey-rc6 /usr/local/bin/subkey \
