@@ -16,7 +16,7 @@
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 10000000000000000,
+      "startBlock": 10000000000000,
       "gasLimit": 1000000,
       "maxGasPrice": 15000000000,
       "blockConfirmations": 60,
@@ -43,26 +43,6 @@
       "maxGasPrice": 1000000000000,
       "blockConfirmations": 24,
       "nativeTokenSymbol": "Brise",
-      "decimals": 18
-    },
-    {
-      "name": "Dogechain",
-      "type": "evm",
-      "id": 3,
-      "networkId": 2000,
-      "endpoint": "https://rpc.ankr.com/dogechain",
-      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f",
-      "erc20Handlers": [
-        "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44"
-      ],
-      "erc721Handlers": [],
-      "genericHandlers": [],
-      "startBlock": 10000000000000000,
-      "gasLimit": 1000000,
-      "maxGasPrice": 200000000000,
-      "blockConfirmations": 180,
-      "nativeTokenSymbol": "Doge",
       "decimals": 18
     },
     {
@@ -120,7 +100,7 @@
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 6764622,
+      "startBlock": 10110012,
       "gasLimit": 1000000,
       "maxGasPrice": 50000000000,
       "blockConfirmations": 120,
@@ -160,7 +140,7 @@
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 10000000000000000,
+      "startBlock": 100000000000000,
       "gasLimit": 1000000,
       "maxGasPrice": 2000000000000,
       "blockConfirmations": 360,
@@ -180,10 +160,70 @@
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 1916665,
+      "startBlock": 10000000000000000,
       "gasLimit": 1000000,
       "maxGasPrice": 10000000000,
       "blockConfirmations": 120,
+      "nativeTokenSymbol": "ETH",
+      "decimals": 18
+    },
+    {
+      "name": "Shimmer",
+      "type": "evm",
+      "id": 11,
+      "networkId": 148,
+      "endpoint": "https://json-rpc.evm.shimmer.network",
+      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "bridge": "0x81bCEa03678D1CEF4830942227720D542Aa15817",
+      "erc20Handlers": [
+        "0x54051D9DbE99687867090d95fe15C3D3E35512Ba"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 10000000000000000,
+      "gasLimit": 1000000,
+      "maxGasPrice": 5000000000000,
+      "blockConfirmations": 40,
+      "nativeTokenSymbol": "SMR",
+      "decimals": 18
+    },
+    {
+      "name": "Scroll",
+      "type": "evm",
+      "id": 12,
+      "networkId": 534352,
+      "endpoint": "https://rpc.scroll.io",
+      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "bridge": "0x81bCEa03678D1CEF4830942227720D542Aa15817",
+      "erc20Handlers": [
+        "0xD2683b22287E63D22928CBe4514003a92507f474"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 100000000000,
+      "gasLimit": 1000000,
+      "maxGasPrice": 5000000000,
+      "blockConfirmations": 60,
+      "nativeTokenSymbol": "ETH",
+      "decimals": 18
+    },
+    {
+      "name": "Neon EVM",
+      "type": "evm",
+      "id": 13,
+      "networkId": 245022934,
+      "endpoint": "https://neon-proxy-mainnet.solana.p2p.org",
+      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "bridge": "0x81bCEa03678D1CEF4830942227720D542Aa15817",
+      "erc20Handlers": [
+        "0x54051d9dbe99687867090d95fe15c3d3e35512ba"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 1000000000000,
+      "gasLimit": 10000000,
+      "maxGasPrice": 200000000000,
+      "blockConfirmations": 600,
       "nativeTokenSymbol": "ETH",
       "decimals": 18
     }
