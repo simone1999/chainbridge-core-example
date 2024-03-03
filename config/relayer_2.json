@@ -10,13 +10,13 @@
       "networkId": 56,
       "endpoint": "https://bscrpc.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x8e6dAa037b7F130020b30562f1E2a5D02233E6c5",
+      "bridge": "0x3D4440F335060a0341C9E6C3bBeE85E552505FFF",
       "erc20Handlers": [
-        "0x50a29cc575Ed0e23017A4202bAb88415E3B6aCC3"
+        "0xe0627818b29D2f28E62f54bC988E6e02C8dbC300"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 21725081,
+      "startBlock": 36595825,
       "gasLimit": 5000000,
       "maxGasPrice": 30000000000,
       "blockConfirmations": 40,
@@ -30,59 +30,17 @@
       "networkId": 32520,
       "endpoint": "https://rpc-internal.icecreamswap.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0xE8b0dF74192CCA9C4de66F23653476f6e6CD1d98",
+      "bridge": "0x6A6A2C9A9e9dDf3a6D76B8e1d05701d7D57596B8",
       "erc20Handlers": [
-        "0x2D43a3fC6C29c5840102b3eDDB8eCEd3BD3433A6",
-        "0x0F7B1a1E408E3f6d259B40f0769391afaf8deB33",
-        "0x604BdA7A7ea8C23CFFC93c463d2179766c21Cb95"
+        "0x41601da270Fc1086Af892356DB397c6F4fb8d76F"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 1311612,
+      "startBlock": 4309219,
       "gasLimit": 5000000,
       "maxGasPrice": 1000000000000,
       "blockConfirmations": 12,
       "nativeTokenSymbol": "Brise",
-      "decimals": 18
-    },
-    {
-      "name": "Dogechain",
-      "type": "evm",
-      "id": 3,
-      "networkId": 2000,
-      "endpoint": "https://rpc.ankr.com/dogechain",
-      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f",
-      "erc20Handlers": [
-        "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44"
-      ],
-      "erc721Handlers": [],
-      "genericHandlers": [],
-      "startBlock": 2708953,
-      "gasLimit": 5000000,
-      "maxGasPrice": 200000000000,
-      "blockConfirmations": 90,
-      "nativeTokenSymbol": "Doge",
-      "decimals": 18
-    },
-    {
-      "name": "Fuse",
-      "type": "evm",
-      "id": 5,
-      "networkId": 122,
-      "endpoint": "https://fuse.api.onfinality.io/public",
-      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x81bCEa03678D1CEF4830942227720D542Aa15817",
-      "erc20Handlers": [
-        "0x54051D9DbE99687867090d95fe15C3D3E35512Ba"
-      ],
-      "erc721Handlers": [],
-      "genericHandlers": [],
-      "startBlock": 19810168,
-      "gasLimit": 5000000,
-      "maxGasPrice": 100000000000,
-      "blockConfirmations": 36,
-      "nativeTokenSymbol": "FUSE",
       "decimals": 18
     },
     {
@@ -92,14 +50,13 @@
       "networkId": 50,
       "endpoint": "https://erpc.xinfin.network",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f",
+      "bridge": "0x7D5a56742C082FcDfc240cd7D1775f00e059771F",
       "erc20Handlers": [
-        "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44",
-        "0x81bCEa03678D1CEF4830942227720D542Aa15817"
+        "0xaD40d5b7CC8b4ca4F8BCd6B06A77bc8CEb050B28"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 53844753,
+      "startBlock": 72288821,
       "gasLimit": 5000000,
       "maxGasPrice": 1000000000000,
       "blockConfirmations": 90,
@@ -113,38 +70,17 @@
       "networkId": 1116,
       "endpoint": "https://rpc.coredao.org",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x54051D9DbE99687867090d95fe15C3D3E35512Ba",
+      "bridge": "0x88cD606B63C4665499ad0d47d4685d2ffc78e2Be",
       "erc20Handlers": [
-        "0x867f08A3ab824b42e8058a1B48e32E1dF205b092",
-        "0x08bcfE101E1378DeC98a915aFdf233aCf7cD8794"
+        "0x484bCB943499281003F95723ee4Ef3a116c2445f"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 853609,
+      "startBlock": 12003534,
       "gasLimit": 5000000,
       "maxGasPrice": 50000000000,
       "blockConfirmations": 60,
       "nativeTokenSymbol": "CORE",
-      "decimals": 18
-    },
-    {
-      "name": "XoDex",
-      "type": "evm",
-      "id": 8,
-      "networkId": 2415,
-      "endpoint": "https://xo-dex.io",
-      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f",
-      "erc20Handlers": [
-        "0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44"
-      ],
-      "erc721Handlers": [],
-      "genericHandlers": [],
-      "startBlock": 4340369,
-      "gasLimit": 5000000,
-      "maxGasPrice": 5000000,
-      "blockConfirmations": 60,
-      "nativeTokenSymbol": "XODEX",
       "decimals": 18
     },
     {
@@ -154,13 +90,13 @@
       "networkId": 40,
       "endpoint": "https://rpc1.us.telos.net/evm",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0xce6c9c70f91c6797873EFC80505f972290A88f5D",
+      "bridge": "0xd65CceCFf339e5680b1A1E7821421932cc2b114f",
       "erc20Handlers": [
-        "0x905caAE1627856529BEd7b9572F02af5e5Ac6cA7"
+        "0x6A6A2C9A9e9dDf3a6D76B8e1d05701d7D57596B8"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 286184674,
+      "startBlock": 329017231,
       "gasLimit": 5000000,
       "maxGasPrice": 2000000000000,
       "blockConfirmations": 240,
@@ -174,13 +110,13 @@
       "networkId": 8453,
       "endpoint": "https://base.publicnode.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x81bCEa03678D1CEF4830942227720D542Aa15817",
+      "bridge": "0xd65CceCFf339e5680b1A1E7821421932cc2b114f",
       "erc20Handlers": [
-        "0x54051D9DbE99687867090d95fe15C3D3E35512Ba"
+        "0x6A6A2C9A9e9dDf3a6D76B8e1d05701d7D57596B8"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 1916665,
+      "startBlock": 11344041,
       "gasLimit": 5000000,
       "maxGasPrice": 10000000000,
       "blockConfirmations": 90,
@@ -194,13 +130,13 @@
       "networkId": 148,
       "endpoint": "https://json-rpc.evm.shimmer.network",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x81bCEa03678D1CEF4830942227720D542Aa15817",
+      "bridge": "0x4ddC9394b8371765588B10134AA79472C1d42b16",
       "erc20Handlers": [
-        "0x54051D9DbE99687867090d95fe15C3D3E35512Ba"
+        "0xD810A437e334B9C3660C18b38fB3C01000B91DD3"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 35428,
+      "startBlock": 3355471,
       "gasLimit": 5000000,
       "maxGasPrice": 5000000000000,
       "blockConfirmations": 30,
@@ -214,13 +150,13 @@
       "networkId": 534352,
       "endpoint": "https://scroll.blockpi.network/v1/rpc/public",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x81bCEa03678D1CEF4830942227720D542Aa15817",
+      "bridge": "0xd65CceCFf339e5680b1A1E7821421932cc2b114f",
       "erc20Handlers": [
-        "0xD2683b22287E63D22928CBe4514003a92507f474"
+        "0x6A6A2C9A9e9dDf3a6D76B8e1d05701d7D57596B8"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 85346,
+      "startBlock": 3815299,
       "gasLimit": 5000000,
       "maxGasPrice": 5000000000,
       "blockConfirmations": 40,
@@ -232,15 +168,15 @@
       "type": "evm",
       "id": 13,
       "networkId": 245022934,
-      "endpoint": "https://neon-mainnet.everstake.one",
+      "endpoint": "https://neon-proxy-mainnet.solana.p2p.org",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
-      "bridge": "0x81bCEa03678D1CEF4830942227720D542Aa15817",
+      "bridge": "0x4ddC9394b8371765588B10134AA79472C1d42b16",
       "erc20Handlers": [
-        "0x54051d9dbe99687867090d95fe15c3d3e35512ba"
+        "0xd65CceCFf339e5680b1A1E7821421932cc2b114f"
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 238199625,
+      "startBlock": 251829377,
       "gasLimit": 20000000,
       "maxGasPrice": 200000000000,
       "blockConfirmations": 600,

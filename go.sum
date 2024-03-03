@@ -623,8 +623,8 @@ github.com/shirou/gopsutil v3.21.4-0.20210419000835-c7a38de76ee5+incompatible/go
 github.com/shirou/gopsutil v3.21.10+incompatible h1:AL2kpVykjkqeN+MFe1WcwSBVUjGjvdU8/ubvCuXAjrU=
 github.com/shirou/gopsutil v3.21.10+incompatible/go.mod h1:5b4v6he4MtMOwMlS0TUMTu2PcXUg8+E1lC7eC3UO/RA=
 github.com/shurcooL/sanitized_anchor_name v1.0.0/go.mod h1:1NzhyTcUVG4SuEtjjoZeVRXNmyL/1OwPU0+IJeTBvfc=
-github.com/simone1999/sygma-core v0.1.6-0.20231227100146-5f7965cbc822 h1:Hd16BNlMb0ewQFg9miTRN/L8CV/e0PL0zykmzt1HjQ0=
-github.com/simone1999/sygma-core v0.1.6-0.20231227100146-5f7965cbc822/go.mod h1:Nl4pM/lJ/Acf/mk4vDv9kXx5mvoupzz5Z8UpdTDUOjI=
+github.com/simone1999/sygma-core v0.1.6-0.20240301203836-df195f884891 h1:20OKEqoOEWiVCC3PPgEUBbC/WhuYgjsgSE2K4+JAauE=
+github.com/simone1999/sygma-core v0.1.6-0.20240301203836-df195f884891/go.mod h1:Nl4pM/lJ/Acf/mk4vDv9kXx5mvoupzz5Z8UpdTDUOjI=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=
 github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d/go.mod h1:OnSkiWE9lh6wB0YB77sQom3nweQdgAjqCqsofrRNTgc=
