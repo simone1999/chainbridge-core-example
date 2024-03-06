@@ -182,6 +182,26 @@
       "blockConfirmations": 600,
       "nativeTokenSymbol": "ETH",
       "decimals": 18
+    },
+    {
+      "name": "Qitmeer",
+      "type": "evm",
+      "id": 14,
+      "networkId": 813,
+      "endpoint": "https://evm-dataseed.meerscan.com",
+      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "bridge": "0x7b2a5C88AB9367147F6ac384F857CbaDF5aA70a7",
+      "erc20Handlers": [
+        "0x698a912F8CA34Df9b46E6Ea4A2B2DB0B7151b083"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 1341009,
+      "gasLimit": 10000000,
+      "maxGasPrice": 200000000000,
+      "blockConfirmations": 40,
+      "nativeTokenSymbol": "MEER",
+      "decimals": 18
     }
   ]
 }
