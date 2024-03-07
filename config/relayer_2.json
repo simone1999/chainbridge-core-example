@@ -202,6 +202,26 @@
       "blockConfirmations": 40,
       "nativeTokenSymbol": "MEER",
       "decimals": 18
+    },
+    {
+      "name": "Blast",
+      "type": "evm",
+      "id": 15,
+      "networkId": 81457,
+      "endpoint": "https://rpc.ankr.com/blast",
+      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "bridge": "0x575C065Bf1Fa9D6F0F94AAC620a6936dD8517c7D",
+      "erc20Handlers": [
+        "0x7b2a5C88AB9367147F6ac384F857CbaDF5aA70a7"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 501335,
+      "gasLimit": 10000000,
+      "maxGasPrice": 10000000000,
+      "blockConfirmations": 60,
+      "nativeTokenSymbol": "ETH",
+      "decimals": 18
     }
   ]
 }
