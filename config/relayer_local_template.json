@@ -222,6 +222,26 @@
       "blockConfirmations": 60,
       "nativeTokenSymbol": "ETH",
       "decimals": 18
+    },
+    {
+      "name": "Boba",
+      "type": "evm",
+      "id": 16,
+      "networkId": 288,
+      "endpoint": "https://mainnet.boba.network",
+      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "bridge": "0x7b2a5C88AB9367147F6ac384F857CbaDF5aA70a7",
+      "erc20Handlers": [
+        "0x698a912F8CA34Df9b46E6Ea4A2B2DB0B7151b083"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 100000000000000,
+      "gasLimit": 10000000,
+      "maxGasPrice": 2000000000,
+      "blockConfirmations": 20,
+      "nativeTokenSymbol": "ETH",
+      "decimals": 18
     }
   ]
 }
