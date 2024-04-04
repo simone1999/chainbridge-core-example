@@ -242,6 +242,26 @@
       "blockConfirmations": 5,
       "nativeTokenSymbol": "ETH",
       "decimals": 18
+    },
+    {
+      "name": "Degen",
+      "type": "evm",
+      "id": 17,
+      "networkId": 666666666,
+      "endpoint": "https://rpc.degen.tips",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
+      "bridge": "0x3D4440F335060a0341C9E6C3bBeE85E552505FFF",
+      "erc20Handlers": [
+        "0xe0627818b29D2f28E62f54bC988E6e02C8dbC300"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 2274048,
+      "gasLimit": 10000000,
+      "maxGasPrice": 100000000000,
+      "blockConfirmations": 600,
+      "nativeTokenSymbol": "DEGEN",
+      "decimals": 18
     }
   ]
 }
