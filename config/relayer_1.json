@@ -28,7 +28,7 @@
       "type": "evm",
       "id": 2,
       "networkId": 32520,
-      "endpoint": "https://rpc-internal.icecreamswap.com",
+      "endpoint": "https://rpc-bitgert.icecreamswap.com",
       "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0x6A6A2C9A9e9dDf3a6D76B8e1d05701d7D57596B8",
       "erc20Handlers": [
@@ -188,7 +188,7 @@
       "type": "evm",
       "id": 14,
       "networkId": 813,
-      "endpoint": "https://mainnet.meerlabs.com",
+      "endpoint": "https://qng.rpc.qitmeer.io",
       "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0x7b2a5C88AB9367147F6ac384F857CbaDF5aA70a7",
       "erc20Handlers": [
