@@ -262,6 +262,26 @@
       "blockConfirmations": 600,
       "nativeTokenSymbol": "DEGEN",
       "decimals": 18
+    },
+    {
+      "name": "Arbitrum",
+      "type": "evm",
+      "id": 18,
+      "networkId": 42161,
+      "endpoint": "https://arbitrum-one.public.blastapi.io",
+      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
+      "bridge": "0x3D4440F335060a0341C9E6C3bBeE85E552505FFF",
+      "erc20Handlers": [
+        "0xe0627818b29D2f28E62f54bC988E6e02C8dbC300"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 312129818,
+      "gasLimit": 10000000,
+      "maxGasPrice": 10000000000,
+      "blockConfirmations": 240,
+      "nativeTokenSymbol": "ETH",
+      "decimals": 18
     }
   ]
 }

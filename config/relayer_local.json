@@ -28,7 +28,7 @@
       "type": "evm",
       "id": 2,
       "networkId": 32520,
-      "endpoint": "https://rpc-internal.icecreamswap.com",
+      "endpoint": "https://rpc-bitgert.icecreamswap.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x6A6A2C9A9e9dDf3a6D76B8e1d05701d7D57596B8",
       "erc20Handlers": [
@@ -36,7 +36,7 @@
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 4327330,
+      "startBlock": 100000000000000,
       "gasLimit": 5000000,
       "maxGasPrice": 1000000000000,
       "blockConfirmations": 12,
@@ -48,7 +48,7 @@
       "type": "evm",
       "id": 6,
       "networkId": 50,
-      "endpoint": "https://erpc.xinfin.network",
+      "endpoint": "https://rpc.ankr.com/xdc",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x7D5a56742C082FcDfc240cd7D1775f00e059771F",
       "erc20Handlers": [
@@ -68,7 +68,7 @@
       "type": "evm",
       "id": 7,
       "networkId": 1116,
-      "endpoint": "https://rpc.coredao.org",
+      "endpoint": "https://rpc-core.icecreamswap.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x88cD606B63C4665499ad0d47d4685d2ffc78e2Be",
       "erc20Handlers": [
@@ -148,7 +148,7 @@
       "type": "evm",
       "id": 12,
       "networkId": 534352,
-      "endpoint": "https://scroll.blockpi.network/v1/rpc/public",
+      "endpoint": "https://rpc.scroll.io",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0xd65CceCFf339e5680b1A1E7821421932cc2b114f",
       "erc20Handlers": [
@@ -168,7 +168,7 @@
       "type": "evm",
       "id": 13,
       "networkId": 245022934,
-      "endpoint": "https://neon-proxy-mainnet.solana.p2p.org",
+      "endpoint": "https://neon-mainnet.everstake.one",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x4ddC9394b8371765588B10134AA79472C1d42b16",
       "erc20Handlers": [
@@ -188,7 +188,7 @@
       "type": "evm",
       "id": 14,
       "networkId": 813,
-      "endpoint": "https://mainnet.meerlabs.com",
+      "endpoint": "https://evm-dataseed1.meerscan.io",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x7b2a5C88AB9367147F6ac384F857CbaDF5aA70a7",
       "erc20Handlers": [
@@ -261,6 +261,26 @@
       "maxGasPrice": 100000000000,
       "blockConfirmations": 1800,
       "nativeTokenSymbol": "DEGEN",
+      "decimals": 18
+    },
+    {
+      "name": "Arbitrum",
+      "type": "evm",
+      "id": 18,
+      "networkId": 42161,
+      "endpoint": "https://arbitrum-one.public.blastapi.io",
+      "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
+      "bridge": "0x3D4440F335060a0341C9E6C3bBeE85E552505FFF",
+      "erc20Handlers": [
+        "0xe0627818b29D2f28E62f54bC988E6e02C8dbC300"
+      ],
+      "erc721Handlers": [],
+      "genericHandlers": [],
+      "startBlock": 100000000000000,
+      "gasLimit": 10000000,
+      "maxGasPrice": 10000000000,
+      "blockConfirmations": 480,
+      "nativeTokenSymbol": "ETH",
       "decimals": 18
     }
   ]
