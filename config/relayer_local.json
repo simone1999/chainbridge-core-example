@@ -8,7 +8,7 @@
       "type": "evm",
       "id": 1,
       "networkId": 56,
-      "endpoint": "https://bscrpc.com",
+      "endpoint": "https://bsc.meowrpc.com",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x3D4440F335060a0341C9E6C3bBeE85E552505FFF",
       "erc20Handlers": [
@@ -108,7 +108,7 @@
       "type": "evm",
       "id": 10,
       "networkId": 8453,
-      "endpoint": "https://base.publicnode.com",
+      "endpoint": "https://mainnet.base.org",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0xd65CceCFf339e5680b1A1E7821421932cc2b114f",
       "erc20Handlers": [
@@ -116,7 +116,7 @@
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 10000000000000,
+      "startBlock": 27811945,
       "gasLimit": 5000000,
       "maxGasPrice": 10000000000,
       "blockConfirmations": 90,
@@ -268,7 +268,7 @@
       "type": "evm",
       "id": 18,
       "networkId": 42161,
-      "endpoint": "https://arbitrum.llamarpc.com",
+      "endpoint": "https://arbitrum.gateway.tenderly.co",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x3D4440F335060a0341C9E6C3bBeE85E552505FFF",
       "erc20Handlers": [
