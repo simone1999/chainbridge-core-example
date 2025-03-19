@@ -48,7 +48,7 @@
       "type": "evm",
       "id": 6,
       "networkId": 50,
-      "endpoint": "https://rpc.ankr.com/xdc",
+      "endpoint": "https://erpc.xinfin.network",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x7D5a56742C082FcDfc240cd7D1775f00e059771F",
       "erc20Handlers": [
