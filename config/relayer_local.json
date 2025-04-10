@@ -116,7 +116,7 @@
       ],
       "erc721Handlers": [],
       "genericHandlers": [],
-      "startBlock": 27811945,
+      "startBlock": 100000000000000,
       "gasLimit": 5000000,
       "maxGasPrice": 10000000000,
       "blockConfirmations": 90,
@@ -268,7 +268,7 @@
       "type": "evm",
       "id": 18,
       "networkId": 42161,
-      "endpoint": "https://arbitrum.gateway.tenderly.co",
+      "endpoint": "https://arb1.lava.build",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x3D4440F335060a0341C9E6C3bBeE85E552505FFF",
       "erc20Handlers": [

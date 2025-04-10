@@ -268,7 +268,7 @@
       "type": "evm",
       "id": 18,
       "networkId": 42161,
-      "endpoint": "https://arbitrum.gateway.tenderly.co",
+      "endpoint": "https://arb1.lava.build",
       "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0x3D4440F335060a0341C9E6C3bBeE85E552505FFF",
       "erc20Handlers": [

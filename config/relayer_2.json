@@ -148,7 +148,7 @@
       "type": "evm",
       "id": 12,
       "networkId": 534352,
-      "endpoint": "https://scroll.blockpi.network/v1/rpc/public",
+      "endpoint": "https://rpc.scroll.io",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0xd65CceCFf339e5680b1A1E7821421932cc2b114f",
       "erc20Handlers": [
