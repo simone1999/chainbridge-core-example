@@ -12,7 +12,7 @@ require (
 	github.com/aws/aws-sdk-go v1.25.48
 	github.com/ethereum/go-ethereum v1.10.15
 	github.com/rs/zerolog v1.26.1
-	github.com/spf13/cobra v1.2.1
+	github.com/spf13/cobra v1.6.1
 	github.com/spf13/viper v1.10.1
 	github.com/stretchr/testify v1.7.0
 )
