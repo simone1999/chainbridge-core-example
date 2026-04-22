@@ -68,7 +68,7 @@
       "type": "evm",
       "id": 7,
       "networkId": 1116,
-      "endpoint": "https://rpc.coredao.org",
+      "endpoint": "https://rpc-core.icecreamswap.com",
       "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0x88cD606B63C4665499ad0d47d4685d2ffc78e2Be",
       "erc20Handlers": [
@@ -88,7 +88,7 @@
       "type": "evm",
       "id": 9,
       "networkId": 40,
-      "endpoint": "https://mainnet.telos.net/evm",
+      "endpoint": "https://rpc.telos.net",
       "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
       "bridge": "0xd65CceCFf339e5680b1A1E7821421932cc2b114f",
       "erc20Handlers": [
@@ -200,26 +200,6 @@
       "gasLimit": 10000000,
       "maxGasPrice": 10000000000,
       "blockConfirmations": 30,
-      "nativeTokenSymbol": "ETH",
-      "decimals": 18
-    },
-    {
-      "name": "Boba",
-      "type": "evm",
-      "id": 16,
-      "networkId": 288,
-      "endpoint": "https://mainnet.boba.network",
-      "from": "0xe4B30ce8D7Fd3A546D8a2a785D7D6108cCD1D683",
-      "bridge": "0x7b2a5C88AB9367147F6ac384F857CbaDF5aA70a7",
-      "erc20Handlers": [
-        "0x698a912F8CA34Df9b46E6Ea4A2B2DB0B7151b083"
-      ],
-      "erc721Handlers": [],
-      "genericHandlers": [],
-      "startBlock": 1138209,
-      "gasLimit": 10000000,
-      "maxGasPrice": 2000000000,
-      "blockConfirmations": 5,
       "nativeTokenSymbol": "ETH",
       "decimals": 18
     },
