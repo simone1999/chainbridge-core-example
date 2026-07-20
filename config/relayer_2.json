@@ -8,7 +8,7 @@
       "type": "evm",
       "id": 1,
       "networkId": 56,
-      "endpoint": "https://binance.llamarpc.com",
+      "endpoint": "https://api-bsc-mainnet-full.n.dwellir.com/f4df67d2-8a7a-4eb4-833d-0df6bbd2478f",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x3D4440F335060a0341C9E6C3bBeE85E552505FFF",
       "erc20Handlers": [
@@ -68,7 +68,7 @@
       "type": "evm",
       "id": 7,
       "networkId": 1116,
-      "endpoint": "https://rpc-core.icecreamswap.com",
+      "endpoint": "https://rpc.coredao.org",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x88cD606B63C4665499ad0d47d4685d2ffc78e2Be",
       "erc20Handlers": [
@@ -208,7 +208,7 @@
       "type": "evm",
       "id": 18,
       "networkId": 42161,
-      "endpoint": "https://arbitrum.meowrpc.com",
+      "endpoint": "https://api-arbitrum-mainnet-full.n.dwellir.com/f4df67d2-8a7a-4eb4-833d-0df6bbd2478f",
       "from": "0x79f0939bf2E1bD0a9b526BE1A5462976b03a1278",
       "bridge": "0x3D4440F335060a0341C9E6C3bBeE85E552505FFF",
       "erc20Handlers": [
